@@ -1,0 +1,54 @@
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.media-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  div {
+    margin: 20px 5px;
+    background-size: initial;
+    button {
+      cursor: initial;
+    }
+  }
+}
+.root-card {
+  max-width: 345px;
+  &__media {
+    height: 140px;
+  }
+}
+
+.root-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  label {
+    width: 200px;
+  }
+  .MuiInputBase-root,
+  .MuiInput-root,
+  .MuiInput-underline,
+  .MuiInputBase-formControl,
+  .MuiInput-formControl {
+    width: 200px;
+    svg {
+      display: none;
+    }
+  }
+}
+.MuiList-root,
+.MuiMenu-list,
+.MuiList-padding {
+  height: 400px;
+}
